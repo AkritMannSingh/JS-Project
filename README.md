@@ -1,6 +1,6 @@
 # 🎓 JS Project
 
-#### • It calculates the Student Grades, with showing perfectly grade, messages. many more thing. 
+#### • It calculates the Student Grades, with showing perfectly grade, messages, many more things. 
 
 #### • This project is combined with a HTML, CSS, and JavaScript. 
 
