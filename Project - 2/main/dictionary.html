@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Meaning Dictionary</title>
 
+<link rel="stylesheet" href="dictionary.css">
+</head>
+
+<body>
+
+<div class="container">
+        <header>
+            <h1>📚 Word Meaning Dictionary</h1>
+            <p class="tagline">Discover the meanings of interesting English words</p>
+        </header>
+
+        <div class="main-content">
+            <div class="search-section">
+                <input type="text" id="wordInput" placeholder="Enter a word to search...">
+                <button onclick="searchWord()">Search</button>
+            </div>
+
+            <div class="result-section" id="resultSection">
+                <div class="empty-state">
+                    <h3>🔍 Search for a word</h3>
+                    <p>Type a word above to see its meaning, example, and type</p>
+                </div>
+            </div>
+
+            <div class="dictionary-list">
+                <h3>📖 All Words in Dictionary</h3>
+                <div id="wordList">
+                    <!-- Words will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="dictionary.js"></script>
+
+</body>
+</html>
